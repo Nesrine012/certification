@@ -1,13 +1,76 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Untitled3</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plateforme de Gestion des Certifications</title>
+  <style>
+    /* Styles CSS pour la barre de navigation */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#c9d8ff;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Hauteur de la vue à 100% pour centrer verticalement */
+      margin: 0;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color:#ffc9f3; /* Couleur de fond de la barre de navigation */
+      padding-top: 20px; /* Espacement en haut */
+    }
+
+    .sidenav a {
+      padding: 10px 20px; /* Espacement autour des liens */
+      text-decoration: none; /* Supprimer le soulignement des liens */
+      color: #000000; /* Couleur du texte */
+      display: block; /* Afficher les liens en bloc */
+    }
+
+    .sidenav a:hover {
+      background-color: #c9d8ff; /* Couleur de fond au survol */
+    }
+
+    /* Styles pour le contenu principal */
+    .main {
+      margin-left: 200px; /* Marge à gauche pour éviter de chevaucher la barre de navigation */
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <app-root></app-root>
+
+<!-- Barre de navigation latérale -->
+<div class="sidenav">
+  <a href="#">contact</a>
+  <a href="#">Certifications</a>
+  <a href="#">Candidats</a>
+  <a href="#">Examens</a>
+  <a href="#">Rapports</a>
+  <a href="#">Paramètres</a>
+  <a href="#">Déconnexion</a>
+</div>
+
+<!-- Contenu de votre page -->
+<div class="main">
+  <h2>    Bienvenue sur notre Plateforme </h2>
+  <br>
+  <p><p>Gérez vos certifications efficacement et en toute simplicité.</p>
+  <p>Notre plateforme vous offre un moyen pratique de gérer les certifications </p>
+
+  <img src="https://www.bing.com/th?id=OIP.OlR0aeg-2aFrFyrhHqzl8wHaHa&pid=3.1&cb=&w=300&h=300&p=0" alt="Description de votre image" width="500" height="600">
+</div>
+
 </body>
 </html>
