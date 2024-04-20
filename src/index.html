@@ -1,76 +1,64 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plateforme de Gestion des Certifications</title>
+  <title>Ma Plateforme</title>
+  <!-- Styles Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* Styles CSS pour la barre de navigation */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color:#c9d8ff;
+    .center-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* Hauteur de la vue à 100% pour centrer verticalement */
-      margin: 0;
-    }
-
-    .sidenav {
-      height: 100%;
-      width: 200px;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color:#ffc9f3; /* Couleur de fond de la barre de navigation */
-      padding-top: 20px; /* Espacement en haut */
-    }
-
-    .sidenav a {
-      padding: 10px 20px; /* Espacement autour des liens */
-      text-decoration: none; /* Supprimer le soulignement des liens */
-      color: #000000; /* Couleur du texte */
-      display: block; /* Afficher les liens en bloc */
-    }
-
-    .sidenav a:hover {
-      background-color: #c9d8ff; /* Couleur de fond au survol */
-    }
-
-    /* Styles pour le contenu principal */
-    .main {
-      margin-left: 200px; /* Marge à gauche pour éviter de chevaucher la barre de navigation */
-      padding: 20px;
+    .container {
+      text-align: center; /* Pour centrer le contenu horizontalement */
     }
   </style>
+
+
 </head>
 <body>
 
-<!-- Barre de navigation latérale -->
-<div class="sidenav">
-  <a href="#">contact</a>
-  <a href="#">Certifications</a>
-  <a href="#">Candidats</a>
-  <a href="#">Examens</a>
-  <a href="#">Rapports</a>
-  <a href="#">Paramètres</a>
-  <a href="#">Déconnexion</a>
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ma Plateforme</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="C:/Users/lenovo/WebstormProjects/untitled3/src/app/accueil/accueil.component.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">À propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Produits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenu de la page -->
+<div class="container mt-5">
+  <h1>Bienvenue sur notre Plateforme</h1>
+<br>
 </div>
-
-<!-- Contenu de votre page -->
-<div class="main">
-  <h2>    Bienvenue sur notre Plateforme </h2>
-  <br>
-  <p><p>Gérez vos certifications efficacement et en toute simplicité.</p>
-  <p>Notre plateforme vous offre un moyen pratique de gérer les certifications </p>
-
-  <img src="https://www.bing.com/th?id=OIP.OlR0aeg-2aFrFyrhHqzl8wHaHa&pid=3.1&cb=&w=300&h=300&p=0" alt="Description de votre image" width="500" height="600">
-</div>
-
+<img src="https://th.bing.com/th/id/R.9fd60d0539ce4e734ba24a805dd503c5?rik=ekdNeqRFu8ofgw&pid=ImgRaw&r=0" width="450" height="400" class="center-image">
+<!-- Scripts Bootstrap --><br>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,9 +1,10 @@
-import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { ContactComponent } from './contact/contact.component';
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { AccueilComponent } from 'C:/Users/lenovo/WebstormProjects/untitled3/src/app/accueil';
+
 const routes: Routes = [
-  { path: 'contact', component: ContactComponent }
+  { path: 'C:/Users/lenovo/WebstormProjects/untitled3/src/app/accueil/accueil.component.html', component: AccueilComponent }, // Page d'accueil
+  // Autres routes
 ];
 
 @NgModule({
@@ -11,5 +12,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-
